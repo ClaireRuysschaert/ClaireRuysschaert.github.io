@@ -1,432 +1,755 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Site Portfolio Claire Ruysschaert</title>
+        <link href="styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:wght@300;400&display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous" />
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Site Portfolio Claire Ruysschaert</title>
-    <link href="styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:wght@300;400&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
-
-<body>
-    <main class="col-12 col-md-8 col-xl-6 mx-auto">
-        <header
-            class="bs_bottom d-flex banniere rounded p-3 py-xl-4 m-5 col-12 mx-auto flex-wrap ps-3 justify-content-center">
-            <img class="d-flex col-6 col-md-4 col-lg-2 col-xl-3 col-xxl-2 my-auto rounded-pill border border-dark-subtle"
-                src="images/profile-pic (5).png" alt="photo">
-            <p class="text_bannière d-flex col-12 col-md-8 col-lg-8 col-xl-8 col-xxl-9 flex-column bienvenue fs-2"><span
-                    id="CR">Claire Ruysschaert</span> <span class="opacity-75 fs-4">Développeuse Python
-                    Django en alternance</span> <span id="CRU" class="fs-3 opacity-75">Bienvenue sur
-                    mon site de présentation&nbsp;!</span>
-            </p>
-            <div class="d-flex col-12 justify-content-center align-items-baseline">
-                <a style="max-width: 40px" class="mx-4 col-1" href="mailto:netclaire@hotmail.fr" target="_blank"
-                    class="blue_link"><img src="images/envelope-solid.svg" alt="logo e-mail"></a>
-                <a style="max-width: 40px;" class="mx-4 col-1"
-                    href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/" target="_blank"
-                    class="blue_link"><img src="images/linkedin.svg" alt="logo linkedin"></a>
-                <a style="max-width: 40px;" class="mx-4 col-1" href="https://github.com/ClaireRuysschaert"
-                    target="_blank" class="blue_link"><img src="images/github1.svg" alt="logo gitHub"></a>
-            </div>
-        </header>
-
-
-        <nav class="navbar navbar-expand-xl rounded">
-            <div class="p-1 rounded container-fluid ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll"
-                        style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#formations">Formations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="#langages_logiciels">Langages/logiciels</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#projets">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#experiences">Experiences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#langues">Langues</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#loisirs">Centres d'interets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="https://drive.google.com/file/d/1hglLr0jVdpaLZU3As4QopVi9jETpAUWO/view?usp=share_link"
-                                target="_blank">Lien vers mon CV</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <section class="about_me_section m-5">
-            <section class="presentation_section">
-                <h1 class="greytitle mb-4" id="presentation">
-                    PRESENTATION
-                </h1>
-                <div class="">
-                    <img id="python" class="right rounded-circle" src="images/python_violet.jpg"
-                        alt="photo d'un python avec ambiance violette">
-                    <p>
-                        Je suis actuellement en CDD à l’inserm en tant qu’assistante ingénieure d’étude (préavis 2
-                        mois). J’ai découvert le langage <strong>python</strong> en mai 2022 en parallèle de mon
-                        travail. J’apprend au fil des jours en <strong>autodidacte</strong>, après le travail ou le
-                        week-end. Je
-                        développe actuellement mes compétences en Python sur le framework <strong>Django</strong> et
-                        j'ai réalisé de
-                        multiples leçons chez
-                        <strong>Openclassrooms</strong>. Plus tôt, j’ai étudié et pratiqué à l’aide du livre « Automate
-                        the boring stuff
-                        with python » qui contient des chapitres divers sur la programmation avec une leçon, un ou des
-                        parcours guidés, des questions pratiques et plusieurs <strong>projets pratiques</strong>
-                        (disponible sur mon
-                        <a class="blue_link" href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff"
-                            target="_blank">github</a>). J’ai choisi ce livre par curiosité et pour utiliser la
-                        programmation au quotidien afin
-                        d’automatiser des tâches répétitives que mes collègues auraient pu avoir au travail, ou encore
-                        pour travailler sur des requêtes logicielles. Je me suis rendue compte que le moment le plus
-                        plaisant de ma journée est le moment où je code pour réaliser mes projets.
-                    </p>
-
-                </div>
-                <div>
-                    <img height="150" class="left my-auto rounded" src="images/openclassrooms.jpg"
-                        alt="image du logo d'openclassrooms">
-                    <p class="oc_text">
-                        C'est pourquoi aujourd'hui je souhaite rejoindre une entreprise en <strong>alternance</strong>,
-                        pour
-                        transformer ce loisir
-                        plaisir en un nouveau départ professionnel. J'aimerais apporter ma curiosité et ma détermination
-                        à une
-                        entreprise qui fera confiance à mon profil. J'ai toujours été habituée à apprendre de nouvelles
-                        choses
-                        en
-                        <strong>autonomie</strong> (études scientifiques longues avec rédaction de documents complexes
-                        en anglais,
-                        apprentissage
-                        du
-                        japonais en
-                        autodidacte). Découvrir de nouveaux langages ou technologies sera un nouveau challenge à ma
-                        liste que je
-                        ne
-                        prendrai pas à la légère!
-                        En formation chez Openclassrooms, les approches en "projets" permettent d'acquerir des
-                        compétences de
-                        manière active en réalisant des projets concrets.
-                        Je souhaite développer et acquérir un savoir faire pour devenir <strong>
-                            développeuse
-                            d'application
-                            Python.
-                        </strong>
-                    </p>
-                </div>
-            </section>
-
-            <div id="soft_skills"
-                class="col-12 col-xl-10 col-xxl-8 d-flex flex-column soft_skills_section mt-5 justify-content-center rounded bs_right mx-auto my-5">
-                <h1 class="blacktitle pb-3 bolder d-flex text-center mx-auto">
-                    MODALITES DE L'ALTERNANCE
-                </h1>
-                <ul id="soft_skills_list" class="d-flex flex-column col-8 rounded px-2 py-2 mx-auto">
-                    <li> Contrat d'apprentissage</li>
-                    <li> 2 ans</li>
-                    <li> Prime à l'embauche de 6 000 euros</li>
-                    <li> Début du contrat à n'importe quelle date (préavis de 2 mois)</li>
-                    <li> Rythme: 3 à 4 jours par semaine en entreprise</li>
-                </ul>
-            </div>
-
-            <div id="soft_skills"
-                class="col-12 col-xl-10 col-xxl-8 d-flex flex-column soft_skills_section mt-5 justify-content-center rounded bs_left mx-auto my-5">
-                <h1 class="blacktitle p-3 bolder d-flex text-center mx-auto">
-                    POURQUOI ME FAIRE REJOINDRE VOTRE EQUIPE ?
-                </h1>
-                <ul id="soft_skills_list" class="d-flex flex-column col-8 rounded px-2 py-2 mx-auto">
-                    <li> J'aime régler les problèmes et j'adore proposer de nouvelles idées</li>
-                    <li> Je suis rigoureuse et disciplinée (sport depuis 10 ans, master en sciences)</li>
-                    <li> Je suis de nature joyeuse, positive et enthousiaste !</li>
-                    <li> J'adore rencontrer de nouvelles personnes, discuter et faire rire</li>
-                    <li> Je suis ouverte d'esprit et bienveillante, j'aime beaucoup les critiques constructives !</li>
-                    <li> J'aime créér des choses de mes petits doigts et suis patiente pour les réaliser</li>
-                </ul>
-            </div>
-        
-            
-        </section>
-        <section class="formations_langues_section m-5">
-            <section class="formation_section">
-                <h1 class="greytitle" id="greytitle formations">
-                    FORMATIONS
-                </h1>
-                <div class="d-flex justify-content-between flex-wrap">
-                    <div class="formations col-12 col-xl-9">
-                        <p>
-                            Février 2023 (2 ans) - Alternance parcours Développeur d’applications Python - Openclassrooms
-                        <ul>
-                            <li> Environnements virtuels et <span>PyCharm</span>.</li>
-                            <li> Créations d’applications web en utilisant les <span>frameworks Django et Django
-                                    REST</span>.</li>
-                            <li> Développer une base de données <span>PostgreSQL</span> sécurisée.</li>
-                            <li> Tests, débugs et remaniements d’applications</li>
-                            <li> Utiliser <span>GitHub, Postman, HTML, CSS, JavaScript, CircleCI</span>.</li>
-                        </ul>
-                        </p>
-                        <p>
-                            Janvier 2023 - Formations en autodidacte
-                        <ul>
-                            <li> Livre interface utilisateur : <span>Refactoring UI</span></li>
-                            <li> Formations Openclassrooms (<span>Git/Github, HTML5, CSS3, javascript</span>)</li>
-                            <li> Livre Django : Build websites with <span>Python & Django</span></li>
-                        </ul>
-                        </p>
-                        <p>
-                            De Mai 2022 à Janvier 2023 - Automate The Boring Stuff With Python - Projets en accès libre
-                            sur mon <a class="blue_link"
-                                href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff"
-                                target="_blank">github</a>.
-                        <ul>
-                            <li>Langage python, git/gitHub</li>
-                            <li>Expressions régulières, debugging</li>
-                            <li>Input validation <span>PyInputPlus</span></li>
-                            <li>Lire, écrire et organiser des fichiers <span>Path, shutil, zipfile</span></li>
-                            <li><span>HTML, CSS, Web scraping request, bs4, selenium</span></li>
-                            <li>Travailler avec les documents excel <span>openpyxl, PDF, et word</span></li>
-                            <li>Modules <span>CSV et JSON / API</span></li>
-                            <li>Planifier des tâches et lancer des programmes <span>Time/datetime, multithreading</span>
-                            </li>
-                            <li>Envoyer des mail et SMS <span>Gmail API, SMTP, IMAP, Twilio</span></li>
-                            <li>Manipuler les images <span>Pillow</span></li>
-                        </ul>
-                        </p>
-                        <p>
-                            De 2014 à 2019 - Licence sciences de la vie et <span class="blue_word">Master Recherche
-                                Biologie Santé</span> à
-                            l'Université de Lille.
-                            (Biologie cellullaire, moléculaire, physiologie, génétique, microbiologie, immunité et
-                            infection.)
-                        </p>
-                    </div>
-                    <img class="bs_right col-12 col-xl-3 my-auto rounded" src="images/bureau.jpg"
-                        alt="Photo de livres et d'un pc avec du code">
-                </div>
-            </section>
-            <section class="langages_logiciels_section">
-                <h1 class="my-4 greytitle" id="langages_logiciels">
-                    LANGAGES ET LOGICIELS
-                </h1>
-                <div class="my-4 d-flex border border-dark-subtle mb-4 flex-wrap">
-                    <div class="p-2 d-flex flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2 text-center">Python 3.8 (Django)</span>
-                        <img class="svg m-auto" src="images/python.svg" alt="logo python">
-                    </div>
-                    <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2">HTML5</span>
-                        <img class="svg m-auto" src="images/code-solid.svg" alt="logo balises">
-                    </div>
-                    <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2">CSS3 (Bootstrap)</span>
-                        <img class="svg m-auto" src="images/css3.svg" alt="logo css3">
-                    </div>
-                    <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2">Javascript</span>
-                        <img class="svg m-auto" src="images/square-js.svg" alt="logo javascript">
-                    </div>
-                    <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2">SQL</span>
-                        <img class="svg m-auto" src="images/database-solid.svg" alt="logo SQL">
-                    </div>
-                </div>
-
-                <div class="my-4 d-flex border border-dark-subtle mb-4 flex-wrap">
-                    <div class="p-2 d-flex flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2 text-center">Git</span>
-                        <img class="svg m-auto" src="images/git.svg" alt="logo python">
-                    </div>
-                    <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2">Github</span>
-                        <img class="svg m-auto" src="images/github.svg" alt="logo balises">
-                    </div>
-                    <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2">Visual Studio Code</span>
-                        <img class="svg m-auto" src="images/visual-studio-code-svgrepo-com.svg" alt="logo css3">
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section class="experiences_projets_section m-5">
-            <section class="projets_section">
-                <h1 class="greytitle" id="projets">
-                    PROJETS
-                </h1>
-                <div class="d-flex justify-content-between flex-wrap">
-                    <div class="col-12 col-xl-9">
-                        <p>
-                            Janvier 2023 - <a class="blue_link" href="https://ClaireRuysschaert.github.io"
-                                target="_blank">Site internet
-                                de présentation.</a>
-                        <ul>
-                            <li>Bootstrap</li>
-                        </ul>
-                        </p>
-                        <p>
-                            Janvier 2023 - <a class="blue_link"
-                                href="https://github.com/ClaireRuysschaert/Robbie-Lens-Photography-Website"
-                                target="_blank">Site internet de la photographe Robbie Lens - Openclassrooms</a>
-                        <ul>
-                            <li>Agencer le contenu des pages (Flexbox, CSS Grid, positions)</li>
-                            <li>Utiliser des fonctionnalités avancées de HTML et CSS (tableaux, formulaires)</li>
-                            <li>Responsive (Flexbox, @media queries)</li>
-                        </ul>
-                        </p>
-                        <p>
-                            Janvier 2023 - Webscraping - <a class="blue_link"
-                                href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff/commit/aba293fab7d7ccfa614b20bdf8d739156c82ec9b"
-                                target="_blank">Parser du dernier chapitre de One piece et création d'un raccourci sur
-                                le bureau s'il est sorti.</a>
-                        <ul>
-                            <li>os, Time, Path, schedule, winshell</li>
-                            <li>bs4, requests</li>
-                        </ul>
-                        </p>
-                        <p>
-                            Novembre 2022 - <a class="blue_link"
-                                href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff/blob/master/Regex%20search/2048_simulation.py"
-                                target="_blank">Simulateur du 2048</a>
-                        <ul>
-                            <li>selenium</li>
-                        </ul>
-                        </p>
-                    </div>
-                    <img class="bs_right col-12 col-xl-3 my-auto rounded" src="images/code.jpg"
-                        alt="photographie d'un ordinateur">
-                </div>
-            </section>
-            <section class="experience_section">
-                <h1 id="experiences" class="greytitle mt-5 mb-4">
-                    EXPERIENCES PROFESSIONNELLES (SCIENCES)
-                </h1>
-                <div>
-                    <img height="250" src="images/national-cancer-institute-L7en7Lb-Ovc-unsplash.jpg" alt="cancer cells"
-                        class="right my-auto rounded-circle mb-3">
-                    <p>
-                        Depuis mars 2020 - Ingénieure d’étude sur les sarcomes des tissus mous (cancer), INSERM
-                        U1218 à l’institut Bergonié de Bordeaux – Projet MULTIPLI
-                    <ul>
-                        <li>Gestion des prélèvements à visée de recherche dans le respect de l’éthique et de la
-                            réglementation
-                        </li>
-                        <li>Rédaction de modes opératoires, de documents qualité</li>
-                        <li>Participation au choix et à la validation de la technique de méthodes</li>
-                        <li>Compétences techniques en anapath et biologie moléculaire</li>
-                    </ul>
-                    </p>
-                </div>
-                <p>
-                    8 mois (2018/2019) - Assistante de recherche sur la malaria, CIIL à l’institut Pasteur de Lille
-                <ul>
-                    <li>Optimisation de protocoles</li>
-                    <li>Tenue d’un cahier de laboratoire, traçabilité, présentation des résultats en anglais, rédaction
-                        d’un
-                        mémoire de recherche</li>
-                    <li>Compétences techniques biochimie et microbiologie</li>
-                </ul>
+    <body>
+        <main class="col-12 col-md-8 col-xl-6 mx-auto">
+            <header
+                class="bs_bottom d-flex banniere rounded p-3 py-xl-4 m-5 col-12 mx-auto flex-wrap ps-3 justify-content-center">
+                <img
+                    class="d-flex col-6 col-md-4 col-lg-2 col-xl-3 col-xxl-2 my-auto rounded-pill border border-dark-subtle"
+                    src="images/profile-pic (5).png"
+                    alt="photo" />
+                <p
+                    class="text_bannière d-flex col-12 col-md-8 col-lg-8 col-xl-8 col-xxl-9 flex-column bienvenue fs-2">
+                    <span id="CR">Claire Ruysschaert</span>
+                    <span class="opacity-75 fs-4">
+                        Développeuse Python Django en alternance
+                    </span>
+                    <span id="CRU" class="fs-3 opacity-75">
+                        Bienvenue sur mon site de présentation&nbsp;!
+                    </span>
                 </p>
-            </section>
-        </section>
-        <section class="langues_loisirs_section m-5">
-            <section>
-                <h1 class="greytitle" id="langues">
-                    LANGUES PARLEES
-                </h1>
-                <div class="bs_right d-flex border border-dark-subtle mb-5 flex-wrap">
-                    <div class="p-2 d-flex flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2 text-center">Anglais courant et soutenu</span>
-                        <img class="svg m-auto" src="images/US-UK_Flag.svg" alt="logo us uk flag">
-                    </div>
-                    <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                        <span class="d-flex m-auto mb-2">Japonais bon niveau (JLPT3)</span>
-                        <img class="svg m-auto border" src="images/Flag_of_Japan.svg" alt="logo jp flag">
+                <div
+                    class="d-flex col-12 justify-content-center align-items-baseline">
+                    <a
+                        style="max-width: 40px"
+                        class="mx-4 col-1"
+                        href="mailto:netclaire@hotmail.fr"
+                        target="_blank"
+                        class="blue_link"
+                        ><img src="images/envelope-solid.svg" alt="logo e-mail"
+                    /></a>
+                    <a
+                        style="max-width: 40px"
+                        class="mx-4 col-1"
+                        href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/"
+                        target="_blank"
+                        class="blue_link"
+                        ><img src="images/linkedin.svg" alt="logo linkedin"
+                    /></a>
+                    <a
+                        style="max-width: 40px"
+                        class="mx-4 col-1"
+                        href="https://github.com/ClaireRuysschaert"
+                        target="_blank"
+                        class="blue_link"
+                        ><img src="images/github1.svg" alt="logo gitHub"
+                    /></a>
+                </div>
+            </header>
+
+            <nav class="navbar navbar-expand-xl rounded">
+                <div class="p-1 rounded container-fluid">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul
+                            class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#formations">
+                                    Formations
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#langages_logiciels">
+                                    Langages/logiciels
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#projets">
+                                    Projets
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#experiences"
+                                    >Experiences
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#langues">
+                                    Langues
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#loisirs">
+                                    Centres d'interets</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="https://drive.google.com/file/d/1hglLr0jVdpaLZU3As4QopVi9jETpAUWO/view?usp=share_link"
+                                    target="_blank">
+                                    Lien vers mon CV</a
+                                >
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <section>
-                    <h1 id="loisirs" class="greytitle mt-5">
-                        CENTRES D'INTERETS
-                    </h1>
+            </nav>
 
-                    <div class="bs_left table d-flex border border-dark-subtle mb-5 flex-wrap">
-                        <div class="p-2 d-flex flex-column border border-dark-subtle flex-grow-1">
-                            <span class="m-auto text-center">Culture japonaise</span>
-                            <div class="d-flex flex-row">
-                                <ul id="centres_dinterets" class="p-3 mx-auto">
-                                    <li>Animés, Mangas, musique japonaise et styles de vie</li>
-                                    <li>Langue</li>
-                                    <li>Cuisine</li>
-                                    <li>Architectures et paysages</li>
-                                </ul>
-                                <img style="height: 90px;" class="svg m-auto right"
-                                    src="images/sunset-fuji-mountain-svgrepo-com.svg" alt="logo jp">
-                            </div>
+            <section class="about_me_section m-5">
+                <section class="presentation_section">
+                    <h1 class="greytitle mb-4" id="presentation">
+                        PRESENTATION
+                    </h1>
+                    <div class="">
+                        <img
+                            id="python"
+                            class="right rounded-circle"
+                            src="images/python_violet.jpg"
+                            alt="photo d'un python avec ambiance violette" />
+                        <p>
+                            Je suis actuellement en CDD à l’inserm en tant
+                            qu’assistante ingénieure d’étude (préavis 2 mois).
+                            J’ai découvert le langage
+                            <strong>python</strong> en mai 2022 en parallèle de
+                            mon travail. J’apprend au fil des jours en
+                            <strong>autodidacte</strong>, après le travail ou le
+                            week-end. Je développe actuellement mes compétences
+                            en Python sur le framework
+                            <strong>Django</strong> et j'ai réalisé de multiples
+                            leçons chez <strong>Openclassrooms</strong>. Plus
+                            tôt, j’ai étudié et pratiqué à l’aide du livre «
+                            Automate the boring stuff with python » qui contient
+                            des chapitres divers sur la programmation avec une
+                            leçon, un ou des parcours guidés, des questions
+                            pratiques et plusieurs
+                            <strong>projets pratiques</strong>
+                            (disponible sur mon
+                            <a
+                                class="blue_link"
+                                href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff"
+                                target="_blank">
+                                github
+                            </a>
+                            ). J’ai choisi ce livre par curiosité et pour
+                            utiliser la programmation au quotidien afin
+                            d’automatiser des tâches répétitives que mes
+                            collègues auraient pu avoir au travail, ou encore
+                            pour travailler sur des requêtes logicielles. Je me
+                            suis rendue compte que le moment le plus plaisant de
+                            ma journée est le moment où je code pour réaliser
+                            mes projets.
+                        </p>
+                    </div>
+                    <div>
+                        <img
+                            height="150"
+                            class="left my-auto rounded"
+                            src="images/openclassrooms.jpg"
+                            alt="image du logo d'openclassrooms" />
+                        <p class="oc_text">
+                            C'est pourquoi aujourd'hui je souhaite rejoindre une
+                            entreprise en
+                            <strong>alternance</strong>, pour transformer ce
+                            loisir plaisir en un nouveau départ professionnel.
+                            J'aimerais apporter ma curiosité et ma détermination
+                            à une entreprise qui fera confiance à mon profil.
+                            J'ai toujours été habituée à apprendre de nouvelles
+                            choses en <strong>autonomie</strong> (études
+                            scientifiques longues avec rédaction de documents
+                            complexes en anglais, apprentissage du japonais en
+                            autodidacte). Découvrir de nouveaux langages ou
+                            technologies sera un nouveau challenge à ma liste
+                            que je ne prendrai pas à la légère! En formation
+                            chez Openclassrooms, les approches en "projets"
+                            permettent d'acquerir des compétences de manière
+                            active en réalisant des projets concrets. Je
+                            souhaite développer et acquérir un savoir faire pour
+                            devenir
+                            <strong>
+                                développeuse d'application Python.
+                            </strong>
+                        </p>
+                    </div>
+                </section>
+
+                <div
+                    id="soft_skills"
+                    class="col-12 col-xl-10 col-xxl-8 d-flex flex-column soft_skills_section mt-5 justify-content-center rounded bs_right mx-auto my-5">
+                    <h1
+                        class="blacktitle pb-3 bolder d-flex text-center mx-auto">
+                        MODALITES DE L'ALTERNANCE
+                    </h1>
+                    <ul
+                        id="soft_skills_list"
+                        class="d-flex flex-column col-8 rounded px-2 py-2 mx-auto">
+                        <li>Contrat d'apprentissage</li>
+                        <li>2 ans</li>
+                        <li>Prime à l'embauche de 6 000 euros</li>
+                        <li>
+                            Début du contrat à n'importe quelle date (préavis de
+                            2 mois)
+                        </li>
+                        <li>Rythme: 3 à 4 jours par semaine en entreprise</li>
+                    </ul>
+                </div>
+
+                <div
+                    id="soft_skills"
+                    class="col-12 col-xl-10 col-xxl-8 d-flex flex-column soft_skills_section mt-5 justify-content-center rounded bs_left mx-auto my-5">
+                    <h1
+                        class="blacktitle p-3 bolder d-flex text-center mx-auto">
+                        POURQUOI ME FAIRE REJOINDRE VOTRE EQUIPE ?
+                    </h1>
+                    <ul
+                        id="soft_skills_list"
+                        class="d-flex flex-column col-8 rounded px-2 py-2 mx-auto">
+                        <li>
+                            J'aime régler les problèmes et j'adore proposer de
+                            nouvelles idées
+                        </li>
+                        <li>
+                            Je suis rigoureuse et disciplinée (sport depuis 10
+                            ans, master en sciences)
+                        </li>
+                        <li>
+                            Je suis de nature joyeuse, positive et enthousiaste
+                            !
+                        </li>
+                        <li>
+                            J'adore rencontrer de nouvelles personnes, discuter
+                            et faire rire
+                        </li>
+                        <li>
+                            Je suis ouverte d'esprit et bienveillante, j'aime
+                            beaucoup les critiques constructives !
+                        </li>
+                        <li>
+                            J'aime créér des choses de mes petits doigts et suis
+                            patiente pour les réaliser
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="formations_langues_section m-5">
+                <section class="formation_section">
+                    <h1 class="greytitle" id="greytitle formations">
+                        FORMATIONS
+                    </h1>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <div class="formations col-12 col-xl-9">
+                            <p>
+                                Février 2023 (2 ans) - Alternance parcours
+                                Développeur d’applications Python -
+                                Openclassrooms
+                            </p>
+                            <ul>
+                                <li>
+                                    Environnements virtuels et
+                                    <span>PyCharm</span>.
+                                </li>
+                                <li>
+                                    Créations d’applications web en utilisant
+                                    les
+                                    <span>frameworks Django et Django REST</span
+                                    >.
+                                </li>
+                                <li>
+                                    Développer une base de données
+                                    <span>PostgreSQL</span> sécurisée.
+                                </li>
+                                <li>
+                                    Tests, débugs et remaniements d’applications
+                                </li>
+                                <li>
+                                    Utiliser
+                                    <span>
+                                        GitHub, Postman, HTML, CSS, JavaScript,
+                                        CircleCI </span
+                                    >.
+                                </li>
+                            </ul>
+                            <p>Janvier 2023 - Formations en autodidacte</p>
+                            <ul>
+                                <li>
+                                    Livre interface utilisateur :
+                                    <span>Refactoring UI</span>
+                                </li>
+                                <li>
+                                    Formations Openclassrooms (<span
+                                        >Git/Github, HTML5, CSS3,
+                                        javascript</span
+                                    >)
+                                </li>
+                                <li>
+                                    Livre Django : Build websites with
+                                    <span>Python & Django</span>
+                                </li>
+                            </ul>
+
+                            <p>
+                                De Mai 2022 à Janvier 2023 - Automate The Boring
+                                Stuff With Python - Projets en accès libre sur
+                                mon
+                                <a
+                                    class="blue_link"
+                                    href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff"
+                                    target="_blank">
+                                    github </a
+                                >.
+                            </p>
+                            <ul>
+                                <li>Langage python, git/gitHub</li>
+                                <li>Expressions régulières, debugging</li>
+                                <li>
+                                    Input validation <span>PyInputPlus</span>
+                                </li>
+                                <li>
+                                    Lire, écrire et organiser des fichiers
+                                    <span>Path, shutil, zipfile</span>
+                                </li>
+                                <li>
+                                    <span
+                                        >HTML, CSS, Web scraping request, bs4,
+                                        selenium</span
+                                    >
+                                </li>
+                                <li>
+                                    Travailler avec les documents excel
+                                    <span>openpyxl, PDF, et word</span>
+                                </li>
+                                <li>Modules <span>CSV et JSON / API</span></li>
+                                <li>
+                                    Planifier des tâches et lancer des
+                                    programmes
+                                    <span>Time/datetime, multithreading</span>
+                                </li>
+                                <li>
+                                    Envoyer des mail et SMS
+                                    <span>Gmail API, SMTP, IMAP, Twilio</span>
+                                </li>
+                                <li>
+                                    Manipuler les images <span>Pillow</span>
+                                </li>
+                            </ul>
+
+                            <p>
+                                De 2014 à 2019 - Licence sciences de la vie et
+                                <span class="blue_word">
+                                    Master Recherche Biologie Santé
+                                </span>
+                                à l'Université de Lille. (Biologie cellullaire,
+                                moléculaire, physiologie, génétique,
+                                microbiologie, immunité et infection.)
+                            </p>
                         </div>
-                        <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                            <span class="d-flex m-auto mb-2">Fitness, Musculation, Crossfit</span>
-                            <img class="svg m-auto" src="images/dumbbell-solid.svg" alt="logo dumbbell">
+                        <img
+                            class="bs_right col-12 col-xl-3 my-auto rounded"
+                            src="images/bureau.jpg"
+                            alt="Photo de livres et d'un pc avec du code" />
+                    </div>
+                </section>
+                <section class="langages_logiciels_section">
+                    <h1 class="my-4 greytitle" id="langages_logiciels">
+                        LANGAGES ET LOGICIELS
+                    </h1>
+                    <div
+                        class="my-4 d-flex border border-dark-subtle mb-4 flex-wrap">
+                        <div
+                            class="p-2 d-flex flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2 text-center">
+                                Python 3.8 (Django)
+                            </span>
+                            <img
+                                class="svg m-auto"
+                                src="images/python.svg"
+                                alt="logo python" />
                         </div>
-                        <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                            <span class="d-flex m-auto mb-2">Nutrition</span>
-                            <img class="svg m-auto" src="images/bowl-food-solid.svg" alt="logo food">
+                        <div
+                            class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2">HTML5</span>
+                            <img
+                                class="svg m-auto"
+                                src="images/code-solid.svg"
+                                alt="logo balises" />
                         </div>
-                        <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                            <span class="d-flex m-auto mb-2">Jeux de société</span>
-                            <img class="svg m-auto" src="images/dice-solid.svg" alt="logo dice">
+                        <div
+                            class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2">
+                                CSS3 (Bootstrap)
+                            </span>
+                            <img
+                                class="svg m-auto"
+                                src="images/css3.svg"
+                                alt="logo css3" />
                         </div>
-                        <div class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
-                            <span class="d-flex m-auto mb-2">Jeux vidéos</span>
-                            <img class="svg m-auto" src="images/gamepad-solid.svg" alt="logo gamepad">
+                        <div
+                            class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2">Javascript</span>
+                            <img
+                                class="svg m-auto"
+                                src="images/square-js.svg"
+                                alt="logo javascript" />
+                        </div>
+                        <div
+                            class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2">SQL</span>
+                            <img
+                                class="svg m-auto"
+                                src="images/database-solid.svg"
+                                alt="logo SQL" />
+                        </div>
+                    </div>
+
+                    <div
+                        class="my-4 d-flex border border-dark-subtle mb-4 flex-wrap">
+                        <div
+                            class="p-2 d-flex flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2 text-center"
+                                >Git</span
+                            >
+                            <img
+                                class="svg m-auto"
+                                src="images/git.svg"
+                                alt="logo python" />
+                        </div>
+                        <div
+                            class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2">Github</span>
+                            <img
+                                class="svg m-auto"
+                                src="images/github.svg"
+                                alt="logo balises" />
+                        </div>
+                        <div
+                            class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2"
+                                >Visual Studio Code</span
+                            >
+                            <img
+                                class="svg m-auto"
+                                src="images/visual-studio-code-svgrepo-com.svg"
+                                alt="logo css3" />
                         </div>
                     </div>
                 </section>
             </section>
+            <section class="experiences_projets_section m-5">
+                <section class="projets_section">
+                    <h1 class="greytitle" id="projets">PROJETS</h1>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <div class="col-12 col-xl-9">
+                            <p>
+                                Janvier 2023 -
+                                <a
+                                    class="blue_link"
+                                    href="https://ClaireRuysschaert.github.io"
+                                    target="_blank">
+                                    Site internet de présentation.
+                                </a>
+                            </p>
+                            <ul>
+                                <li>Bootstrap</li>
+                            </ul>
 
-        <footer>
-            <div class="d-flex col-12 justify-content-center align-items-baseline flex-wrap">
-                <p class="d-flex text-center col-12 col-xl-8 justify-content-center m-3 my-auto p-3">Vous avez aimé mon profil ?
-                        N'hésitez pas
-                        à me contacter !</p>
-                <div class="d-flex col-12 col-xl-3 mx-auto justify-content-center">
-                    <a style="max-width: 30px" class="d-flex mx-4 col-4 mb-3" href="mailto:netclaire@hotmail.fr"
-                            target="_blank" class="blue_link"><img src="images/envelope-solid.svg" alt="logo e-mail"></a>
-                    <a style="max-width: 30px;" class="d-flex mx-4 col-4 mb-3"
-                            href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/" target="_blank"
-                            class="blue_link"><img src="images/linkedin.svg" alt="logo linkedin"></a>
-                    <a style="max-width: 30px;" class="d-flex mx-4 col-4 mb-3"
-                            href="https://github.com/ClaireRuysschaert" target="_blank" class="blue_link"><img
-                                src="images/github1.svg" alt="logo gitHub"></a>
+                            <p>
+                                Janvier 2023 -
+                                <a
+                                    class="blue_link"
+                                    href="https://github.com/ClaireRuysschaert/Robbie-Lens-Photography-Website"
+                                    target="_blank">
+                                    Site internet de la photographe Robbie Lens
+                                    - Openclassrooms
+                                </a>
+                            </p>
+                            <ul>
+                                <li>
+                                    Agencer le contenu des pages (Flexbox, CSS
+                                    Grid, positions)
+                                </li>
+                                <li>
+                                    Utiliser des fonctionnalités avancées de
+                                    HTML et CSS (tableaux, formulaires)
+                                </li>
+                                <li>Responsive (Flexbox, @media queries)</li>
+                            </ul>
+
+                            <p>
+                                Janvier 2023 - Webscraping -
+                                <a
+                                    class="blue_link"
+                                    href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff/commit/aba293fab7d7ccfa614b20bdf8d739156c82ec9b"
+                                    target="_blank"
+                                    >Parser du dernier chapitre de One piece et
+                                    création d'un raccourci sur le bureau s'il
+                                    est sorti.</a
+                                >
+                            </p>
+                            <ul>
+                                <li>os, Time, Path, schedule, winshell</li>
+                                <li>bs4, requests</li>
+                            </ul>
+
+                            <p>
+                                Novembre 2022 -
+                                <a
+                                    class="blue_link"
+                                    href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff/blob/master/Regex%20search/2048_simulation.py"
+                                    target="_blank">
+                                    Simulateur du 2048
+                                </a>
+                            </p>
+                            <ul>
+                                <li>selenium</li>
+                            </ul>
+                        </div>
+                        <img
+                            class="bs_right col-12 col-xl-3 my-auto rounded"
+                            src="images/code.jpg"
+                            alt="photographie d'un ordinateur" />
+                    </div>
+                </section>
+                <section class="experience_section">
+                    <h1 id="experiences" class="greytitle mt-5 mb-4">
+                        EXPERIENCES PROFESSIONNELLES (SCIENCES)
+                    </h1>
+                    <div>
+                        <img
+                            height="250"
+                            src="images/national-cancer-institute-L7en7Lb-Ovc-unsplash.jpg"
+                            alt="cancer cells"
+                            class="right my-auto rounded-circle mb-3" />
+                        <p>
+                            Depuis mars 2020 - Ingénieure d’étude sur les
+                            sarcomes des tissus mous (cancer), INSERM U1218 à
+                            l’institut Bergonié de Bordeaux – Projet MULTIPLI
+                        </p>
+                        <ul>
+                            <li>
+                                Gestion des prélèvements à visée de recherche
+                                dans le respect de l’éthique et de la
+                                réglementation
+                            </li>
+                            <li>
+                                Rédaction de modes opératoires, de documents
+                                qualité
+                            </li>
+                            <li>
+                                Participation au choix et à la validation de la
+                                technique de méthodes
+                            </li>
+                            <li>
+                                Compétences techniques en anapath et biologie
+                                moléculaire
+                            </li>
+                        </ul>
+                    </div>
+                    <p>
+                        8 mois (2018/2019) - Assistante de recherche sur la
+                        malaria, CIIL à l’institut Pasteur de Lille
+                    </p>
+                    <ul>
+                        <li>Optimisation de protocoles</li>
+                        <li>
+                            Tenue d’un cahier de laboratoire, traçabilité,
+                            présentation des résultats en anglais, rédaction
+                            d’un mémoire de recherche
+                        </li>
+                        <li>
+                            Compétences techniques biochimie et microbiologie
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="langues_loisirs_section m-5">
+                <section>
+                    <h1 class="greytitle" id="langues">LANGUES PARLEES</h1>
+                    <div
+                        class="bs_right d-flex border border-dark-subtle mb-5 flex-wrap">
+                        <div
+                            class="p-2 d-flex flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2 text-center"
+                                >Anglais courant et soutenu
+                            </span>
+                            <img
+                                class="svg m-auto"
+                                src="images/US-UK_Flag.svg"
+                                alt="logo us uk flag" />
+                        </div>
+                        <div
+                            class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                            <span class="d-flex m-auto mb-2"
+                                >Japonais bon niveau (JLPT3)
+                            </span>
+                            <img
+                                class="svg m-auto border"
+                                src="images/Flag_of_Japan.svg"
+                                alt="logo jp flag" />
+                        </div>
+                    </div>
+                    <section>
+                        <h1 id="loisirs" class="greytitle mt-5">
+                            CENTRES D'INTERETS
+                        </h1>
+
+                        <div
+                            class="bs_left table d-flex border border-dark-subtle mb-5 flex-wrap">
+                            <div
+                                class="p-2 d-flex flex-column border border-dark-subtle flex-grow-1">
+                                <span class="m-auto text-center"
+                                    >Culture japonaise
+                                </span>
+                                <div class="d-flex flex-row">
+                                    <ul
+                                        id="centres_dinterets"
+                                        class="p-3 mx-auto">
+                                        <li>
+                                            Animés, Mangas, musique japonaise et
+                                            styles de vie
+                                        </li>
+                                        <li>Langue</li>
+                                        <li>Cuisine</li>
+                                        <li>Architectures et paysages</li>
+                                    </ul>
+                                    <img
+                                        style="height: 90px"
+                                        class="svg m-auto right"
+                                        src="images/sunset-fuji-mountain-svgrepo-com.svg"
+                                        alt="logo jp" />
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                                <span class="d-flex m-auto mb-2"
+                                    >Fitness, Musculation, Crossfit
+                                </span>
+                                <img
+                                    class="svg m-auto"
+                                    src="images/dumbbell-solid.svg"
+                                    alt="logo dumbbell" />
+                            </div>
+                            <div
+                                class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                                <span class="d-flex m-auto mb-2"
+                                    >Nutrition
+                                </span>
+                                <img
+                                    class="svg m-auto"
+                                    src="images/bowl-food-solid.svg"
+                                    alt="logo food" />
+                            </div>
+                            <div
+                                class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                                <span class="d-flex m-auto mb-2"
+                                    >Jeux de société
+                                </span>
+                                <img
+                                    class="svg m-auto"
+                                    src="images/dice-solid.svg"
+                                    alt="logo dice" />
+                            </div>
+                            <div
+                                class="d-flex p-2 flex-column border border-dark-subtle flex-grow-1">
+                                <span class="d-flex m-auto mb-2"
+                                    >Jeux vidéos
+                                </span>
+                                <img
+                                    class="svg m-auto"
+                                    src="images/gamepad-solid.svg"
+                                    alt="logo gamepad" />
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+
+            <footer>
+                <div
+                    class="d-flex col-12 justify-content-center align-items-baseline flex-wrap">
+                    <p
+                        class="d-flex text-center col-12 col-xl-8 justify-content-center m-3 my-auto p-3">
+                        Vous avez aimé mon profil ? N'hésitez pas à me contacter
+                        !
+                    </p>
+                    <div
+                        class="d-flex col-12 col-xl-3 mx-auto justify-content-center">
+                        <a
+                            style="max-width: 30px"
+                            class="d-flex mx-4 col-4 mb-3"
+                            href="mailto:netclaire@hotmail.fr"
+                            target="_blank"
+                            class="blue_link"
+                            ><img
+                                src="images/envelope-solid.svg"
+                                alt="logo e-mail"
+                        /></a>
+                        <a
+                            style="max-width: 30px"
+                            class="d-flex mx-4 col-4 mb-3"
+                            href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/"
+                            target="_blank"
+                            class="blue_link"
+                            ><img src="images/linkedin.svg" alt="logo linkedin"
+                        /></a>
+                        <a
+                            style="max-width: 30px"
+                            class="d-flex mx-4 col-4 mb-3"
+                            href="https://github.com/ClaireRuysschaert"
+                            target="_blank"
+                            class="blue_link">
+                            <img src="images/github1.svg" alt="logo gitHub" />
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </main>
 
-    </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-
-</body>
-
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
