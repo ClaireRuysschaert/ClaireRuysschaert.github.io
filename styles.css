@@ -132,3 +132,10 @@ li.nav-item a.nav-link.active {
         margin-right:50px;
         margin-bottom: 10px;
 }}
+
+@media screen and (min-width: 1200px){
+    .navbar-nav {
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+}
