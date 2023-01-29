@@ -3,31 +3,29 @@
     font-size: 1em;
 }
 
-#loisir, .bienvenue {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2em;
-    color: hsl(202, 56%, 38%);
-}
-
 .banniere {
-    background: linear-gradient(90deg,#360033, #0b8793)
+    background: linear-gradient(90deg, #667db6, #0082c8, #0082c8, #667db6)
 }
 
 .bienvenue {
+    font-family: 'Lato', sans-serif;
     text-align: center;
-    color: hsl(197, 51%, 69%);    
+    color:rgb(1, 58, 99);
+    letter-spacing: 0.1em!important;
+    font-size: 1.2em;
+    font-weight: 700 !important;   
 }
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 1em !important;
+    font-size: 1.0em !important;
     letter-spacing: 0.2em !important;
     color: hsl(208, 7%, 46%) !important;
     margin-top: 30px !important;
     margin-bottom: 15px !important;
 }
 
-#ordi_code {
+#python {
     max-height: 250px;
     max-width: fit-content;
     /* border-right: 3px solid #2A6F97;
@@ -61,4 +59,30 @@ ul {
 
 .svg {
     height: 50px;
+    max-width: fit-content;
+}
+
+#soft_skills_list {
+    background: linear-gradient(90deg, #a8c0ff, #3f2b96);
+    border:none;
+    font-weight: bolder;
+}
+
+li > span, .blue_word {
+    color: #2A6F97;
+    font-weight: bolder;
+}
+
+.bvn {
+    opacity: 0.4;
+    font-size: 0.9em !important;
+}
+
+@media screen and (max-width: 415px) {
+    #python {
+        margin-right:100px;
+}}
+
+#centres_dinterets {
+    border:none;
 }
