@@ -4,7 +4,8 @@
 }
 
 .banniere {
-    background: linear-gradient(90deg, #667db6, #0082c8, #0082c8, #667db6)
+    background: linear-gradient(90deg, #667db6, #0082c8, #0082c8, #667db6);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
 }
 
 .bienvenue {
@@ -73,16 +74,30 @@ li > span, .blue_word {
     font-weight: bolder;
 }
 
-.bvn {
-    opacity: 0.4;
-    font-size: 0.9em !important;
-}
-
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 405px) {
     #python {
-        margin-right:100px;
+        margin-left:50px;
+        margin-right:50px;
+        margin-bottom: 10px;
 }}
 
 #centres_dinterets {
     border:none;
+}
+
+#CR, #CRU {
+    color:#89C2D9;
+}
+
+/* Box shadows */
+.bs_right {
+    box-shadow: rgba(97, 165, 194, 0.4) 5px 5px, rgba(97, 165, 194, 0.3) 10px 10px, rgba(97, 165, 194, 0.2) 15px 15px, rgba(97, 165, 194, 0.1) 20px 20px, rgba(97, 165, 194, 0.05) 25px 25px;
+}
+
+.bs_left {
+    box-shadow: rgba(97, 165, 194, 0.4) -5px 5px, rgba(97, 165, 194, 0.3) -10px 10px, rgba(97, 165, 194, 0.2) -15px 15px, rgba(97, 165, 194, 0.1) -20px 20px, rgba(97, 165, 194, 0.05) -25px 25px;
+}
+
+.bs_bottom {
+    box-shadow: rgba(97, 165, 194, 0.4) 0px 5px, rgba(97, 165, 1940, 0.3) 0px 10px, rgba(97, 165, 194, 0.2) 0px 15px, rgba(97, 165, 194, 0.1) 0px 20px, rgba(97, 165, 194, 0.05) 0px 25px;
 }
