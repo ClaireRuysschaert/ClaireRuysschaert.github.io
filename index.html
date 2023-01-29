@@ -15,35 +15,65 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <img src="images/logo.png" alt="Logo Claire Ruysschaert" />
-        </a>
-        <!-- <a href="index.html">
-            <img src="images/logo_ico.ico" alt="Logo Claire Ruysschaert" />
-        </a> -->
-        <nav>
-            <a href="#presentation">Presentation</a>
-            <a href="#formations">Formations</a>
-            <a href="#langages_logiciels">Langages/logiciels</a>
-            <a href="#projets">Projets</a>
-            <a href="#experiences">Experiences</a>
-            <a href="#langues">Langues</a>
-            <a href="#loisirs">Centres d'interets</a>
-        </nav>
-
-        <a href="mailto:netclaire@hotmail.fr" target="_blank">Mail</a>
-        <a href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/" target="_blank">Linkedin</a>
-        <a href="https://github.com/ClaireRuysschaert" target="_blank">Github</a>
-    </header>
-
     <main class="col-12 col-md-8 col-xl-6 mx-auto">
-        <div class="bs_bottom d-flex banniere rounded py-3 py-xl-4 m-5 col-12 mx-auto flex-wrap ps-3 justify-content-center">
-            <img class="d-flex col-6 col-md-4 col-lg-2 col-xl-3 col-xxl-2 my-auto rounded-pill border border-dark-subtle" src="images/profile-pic (5).png" alt="photo">            
-            <p class="text_bannière d-flex col-12 col-md-8 col-lg-8 col-xl-8 col-xxl-9 flex-column bienvenue fs-2"><span id="CR">Claire Ruysschaert</span> <span
-                    class="opacity-75 fs-4">Développeuse web Python Django</span> <br><span id="CRU" class="fs-3 opacity-75">Bienvenue sur
-                    mon site de présentation&nbsp;!</span></p>
-        </div>
+        <header
+            class="bs_bottom d-flex banniere rounded p-3 py-xl-4 m-5 col-12 mx-auto flex-wrap ps-3 justify-content-center">
+            <img class="d-flex col-6 col-md-4 col-lg-2 col-xl-3 col-xxl-2 my-auto rounded-pill border border-dark-subtle"
+                src="images/profile-pic (5).png" alt="photo">
+            <p class="text_bannière d-flex col-12 col-md-8 col-lg-8 col-xl-8 col-xxl-9 flex-column bienvenue fs-2"><span
+                    id="CR">Claire Ruysschaert</span> <span class="opacity-75 fs-4">Développeuse web Python
+                    Django</span> <span id="CRU" class="fs-3 opacity-75">Bienvenue sur
+                    mon site de présentation&nbsp;!</span>
+            </p>
+            <div class="d-flex col-12 justify-content-center align-items-baseline">
+                <a style="max-width: 40px" class="mx-4 col-1" href="mailto:netclaire@hotmail.fr" target="_blank"
+                    class="blue_link"><img src="images/envelope-solid.svg" alt="logo e-mail"></a>
+                <a style="max-width: 40px;" class="mx-4 col-1"
+                    href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/" target="_blank"
+                    class="blue_link"><img src="images/linkedin.svg" alt="logo linkedin"></a>
+                <a style="max-width: 40px;" class="mx-4 col-1" href="https://github.com/ClaireRuysschaert"
+                    target="_blank" class="blue_link"><img src="images/github1.svg" alt="logo gitHub"></a>
+            </div>
+        </header>
+
+
+        <nav class="navbar navbar-expand-xl rounded">
+            <div class="p-1 rounded container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll flex-wrap"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#formations">Formations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="#langages_logiciels">Langages/logiciels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#projets">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#experiences">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#langues">Langues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#loisirs">Centres d'interets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://drive.google.com/file/d/1hglLr0jVdpaLZU3As4QopVi9jETpAUWO/view?usp=share_link"
+                                target="_blank">Lien vers mon CV</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <section class="about_me_section m-5">
             <section class="presentation_section">
@@ -66,7 +96,7 @@
                         with python » qui contient des chapitres divers sur la programmation avec une leçon, un ou des
                         parcours guidés, des questions pratiques et plusieurs <strong>projets pratiques</strong>
                         (disponible sur mon
-                        <a href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff"
+                        <a class="blue_link" href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff"
                             target="_blank">github</a>). J’ai choisi ce livre par curiosité et pour utiliser la
                         programmation au quotidien afin
                         d’automatiser des tâches répétitives que mes collègues auraient pu avoir au travail, ou encore
@@ -149,7 +179,8 @@
                         </p>
                         <p>
                             De Mai 2022 à Janvier 2023 - Automate The Boring Stuff With Python - Projets en accès libre
-                            sur mon <a href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff"
+                            sur mon <a class="blue_link"
+                                href="https://github.com/ClaireRuysschaert/Automate-the-boring-stuff"
                                 target="_blank">github</a>.
                         <ul>
                             <li>Langage python, git/gitHub</li>
@@ -228,7 +259,8 @@
                 <div class="d-flex justify-content-between flex-wrap">
                     <div class="col-12 col-xl-9">
                         <p>
-                            Janvier 2023 - <a href="https://ClaireRuysschaert.github.io" target="_blank">Site internet
+                            Janvier 2023 - <a class="blue_link" href="https://ClaireRuysschaert.github.io"
+                                target="_blank">Site internet
                                 de présentation.</a>
                         <ul>
                             <li>Bootstrap</li>
@@ -352,13 +384,25 @@
                     </div>
                 </section>
             </section>
+
+            <footer>
+                <div class="d-flex col-12 justify-content-center align-items-baseline">
+                    <p class="d-flex text-center col-8 justify-content-center m-3 my-auto">Vous avez aimé mon profil ? N'hésitez pas
+                        à me contacter !</p>
+                    <a style="max-width: 30px" class="d-flex mx-4 col-1 mb-3" href="mailto:netclaire@hotmail.fr"
+                        target="_blank" class="blue_link"><img src="images/envelope-solid.svg" alt="logo e-mail"></a>
+                    <a style="max-width: 30px;" class="d-flex mx-4 col-1 mb-3"
+                        href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/" target="_blank"
+                        class="blue_link"><img src="images/linkedin.svg" alt="logo linkedin"></a>
+                    <a style="max-width: 30px;" class="d-flex mx-4 col-1 mb-3"
+                        href="https://github.com/ClaireRuysschaert" target="_blank" class="blue_link"><img
+                            src="images/github1.svg" alt="logo gitHub"></a>
+                </div>
+            </footer>
+
     </main>
 
-    <footer>
-        <a href="mailto:netclaire@hotmail.fr" target="_blank">Mail</a>
-        <a href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/" target="_blank">Linkedin</a>
-        <a href="https://github.com/ClaireRuysschaert" target="_blank">Github</a>
-    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

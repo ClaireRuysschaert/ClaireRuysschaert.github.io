@@ -5,7 +5,6 @@
 
 .banniere {
     background: linear-gradient(90deg, #667db6, #0082c8, #0082c8, #667db6);
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
 }
 
 .bienvenue {
@@ -29,28 +28,6 @@ h1 {
 #python {
     max-height: 250px;
     max-width: fit-content;
-    /* border-right: 3px solid #2A6F97;
-    border-bottom: 3px solid #2A6F97; */
-
-}
-/* .oc_text {
-    border-right: 3px solid #2C7DA0;
-} */
-
-a {
-    color:#61A5C2  !important;
-    font-weight: bolder !important;
-    text-decoration: none !important;
-}
-
-.left {
-    float: left;
-    padding: 0px 30px 10px 0px;
-}
-
-.right {
-    float: right;
-    padding: 0px 0px 0px 15px;
 }
 
 
@@ -74,20 +51,24 @@ li > span, .blue_word {
     font-weight: bolder;
 }
 
-@media screen and (max-width: 405px) {
-    #python {
-        margin-left:50px;
-        margin-right:50px;
-        margin-bottom: 10px;
-}}
-
-#centres_dinterets {
+#centres_dinterets, .navbar-nav {
     border:none;
 }
 
 #CR, #CRU {
     color:#89C2D9;
 }
+
+.navbar {
+    background: #A9D6E5;
+    font-weight: 800;
+    color: #61a5c2 !important;;
+}
+.navbar-toggler-icon:hover, .nav-item:hover {
+    opacity: 0.7;
+}
+
+/* Utilitaires */
 
 /* Box shadows */
 .bs_right {
@@ -101,3 +82,32 @@ li > span, .blue_word {
 .bs_bottom {
     box-shadow: rgba(97, 165, 194, 0.4) 0px 5px, rgba(97, 165, 1940, 0.3) 0px 10px, rgba(97, 165, 194, 0.2) 0px 15px, rgba(97, 165, 194, 0.1) 0px 20px, rgba(97, 165, 194, 0.05) 0px 25px;
 }
+
+li.nav-item a.nav-link.active {
+    color:rgb(1, 58, 99);
+}
+
+/* Light blue link */
+.blue_link {
+    color:#61A5C2  !important;
+    font-weight: bolder !important;
+    text-decoration: none !important;
+}
+
+/* Images crop text */
+.left {
+    float: left;
+    padding: 0px 30px 10px 0px;
+}
+
+.right {
+    float: right;
+    padding: 0px 0px 0px 15px;
+}
+
+@media screen and (max-width: 405px) {
+    #python {
+        margin-left:50px;
+        margin-right:50px;
+        margin-bottom: 10px;
+}}
