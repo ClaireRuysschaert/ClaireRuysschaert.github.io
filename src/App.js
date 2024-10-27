@@ -1,10 +1,9 @@
 import React from "react";
 import Banner from "./components/banner/Banner";
-import Features from "./components/features/Features";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
-import Avis from "./components/avis/Avis";
+import Recommandation from "./components/recommandations/Recommandation";
 
 function App() {
   return (
@@ -12,10 +11,9 @@ function App() {
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
-        <Features />
         <Resume />
         <Projects />
-        <Avis />
+        <Recommandation />
         
       </div>
     </div>

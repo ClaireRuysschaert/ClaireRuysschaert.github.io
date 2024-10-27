@@ -66,9 +66,7 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaPython />
-            </span>
-            <span className="bannerIcon">
+              <FaPython className="mr-1" />
               <SiDjango />
             </span>
             <span className="bannerIcon">
@@ -77,8 +75,10 @@ const LeftBanner = () => {
               <SiJavascript />
             </span>
             <span className="bannerIcon">
-              <SiPostgresql className="mr-2" />
               <SiDocker />
+            </span>
+            <span className="bannerIcon">
+              <SiPostgresql />
             </span>
           </div>
         </div>

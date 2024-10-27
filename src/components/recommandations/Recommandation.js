@@ -29,7 +29,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-const Avis = () => {
+const Recommandations = () => {
       const [dotActive, setDocActive] = useState(0);
      const settings = {
        dots: true,
@@ -88,11 +88,11 @@ const Avis = () => {
      };
   return (
     <section
-      id="avis"
+      id="recommandations"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="Recommandations Linkedin" des="Avis" />
+        <Title title="Recommandations Linkedin" des="Recommandations" />
       </div>
       <div className="max-w-6xl mx-auto">
         {/* ================ Slider One ================== */}
@@ -217,4 +217,4 @@ const Avis = () => {
   );
 }
 
-export default Avis
+export default Recommandations
