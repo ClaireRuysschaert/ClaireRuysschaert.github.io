@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.798f377f.css",
-    "main.js": "/static/js/main.7687dfde.js",
-    "static/media/BannerImg.png": "/static/media/BannerImg.14de54fbe1332f9a0fe5.png",
-    "static/media/projectFive.PNG": "/static/media/projectFive.9067e2d5634d013839a3.PNG",
-    "static/media/projectOne.png": "/static/media/projectOne.bd064d691f3a5a8925d8.png",
-    "static/media/projectTen.PNG": "/static/media/projectTen.ab4ee5887b6beba722eb.PNG",
-    "static/media/projectFour.PNG": "/static/media/projectFour.436b848f7e19fd096351.PNG",
-    "static/media/projectSeven.png": "/static/media/projectSeven.a611d8bba1782f72a40d.png",
-    "static/media/yescapa.png": "/static/media/yescapa.38d6da791bba5e994552.png",
-    "static/media/projectEight.jpeg": "/static/media/projectEight.1b813ed927942f2f366b.jpeg",
-    "static/media/projectTwo.PNG": "/static/media/projectTwo.838d8b652ee6a95aed71.PNG",
-    "static/media/projectThree.PNG": "/static/media/projectThree.90186f29136c31e35304.PNG",
-    "static/media/openclassrooms.jpg": "/static/media/openclassrooms.cc32b65d4f9969597d40.jpg",
-    "static/media/projectSix.PNG": "/static/media/projectSix.7d72966dd5f081a2276d.PNG",
-    "static/media/projectNine.PNG": "/static/media/projectNine.561a6291f89a2cccd123.PNG",
-    "index.html": "/index.html",
-    "main.798f377f.css.map": "/static/css/main.798f377f.css.map",
-    "main.7687dfde.js.map": "/static/js/main.7687dfde.js.map"
+    "main.css": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/css/main.798f377f.css",
+    "main.js": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/js/main.28048a40.js",
+    "static/media/BannerImg.png": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/BannerImg.14de54fbe1332f9a0fe5.png",
+    "static/media/projectFive.PNG": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectFive.9067e2d5634d013839a3.PNG",
+    "static/media/projectOne.png": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectOne.bd064d691f3a5a8925d8.png",
+    "static/media/projectTen.PNG": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectTen.ab4ee5887b6beba722eb.PNG",
+    "static/media/projectFour.PNG": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectFour.436b848f7e19fd096351.PNG",
+    "static/media/projectSeven.png": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectSeven.a611d8bba1782f72a40d.png",
+    "static/media/yescapa.png": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/yescapa.38d6da791bba5e994552.png",
+    "static/media/projectEight.jpeg": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectEight.1b813ed927942f2f366b.jpeg",
+    "static/media/projectTwo.PNG": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectTwo.838d8b652ee6a95aed71.PNG",
+    "static/media/projectThree.PNG": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectThree.90186f29136c31e35304.PNG",
+    "static/media/openclassrooms.jpg": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/openclassrooms.cc32b65d4f9969597d40.jpg",
+    "static/media/projectSix.PNG": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectSix.7d72966dd5f081a2276d.PNG",
+    "static/media/projectNine.PNG": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/media/projectNine.561a6291f89a2cccd123.PNG",
+    "index.html": "/ClaireRuysschaert/ClaireRuysschaert.github.io/index.html",
+    "main.798f377f.css.map": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/css/main.798f377f.css.map",
+    "main.28048a40.js.map": "/ClaireRuysschaert/ClaireRuysschaert.github.io/static/js/main.28048a40.js.map"
   },
   "entrypoints": [
     "static/css/main.798f377f.css",
-    "static/js/main.7687dfde.js"
+    "static/js/main.28048a40.js"
   ]
 }
