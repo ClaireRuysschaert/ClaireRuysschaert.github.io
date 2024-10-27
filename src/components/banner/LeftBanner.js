@@ -1,17 +1,16 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {
-  FaFacebookF,
-  FaTwitter,
+  FaEnvelope,
   FaLinkedinIn,
-  FaReact,
+  FaPython,
   FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiPostgresql, SiDjango, SiJavascript, SiHtml5, SiCss3, SiDocker } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+    words: ["Développeuse Backend.", "Développeuse Python / Django.", "Créatrice d'API REST (DRF).", "Curieuse de tout.", "Cat mom."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -20,12 +19,12 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h4 className=" text-lg font-normal">Bienvenue sur mon portfolio en ligne</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Bonjour, moi c'est <span className="text-designColor capitalize">Claire Ruysschaert</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          une <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -33,55 +32,53 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          Je code en python avec le framework Django depuis 3 ans. J'ai un attrait pour le développement web et les apis.
+          Venant du milieu scientifique, j'ai une approche rigoureuse et méthodique du code.
+          Je suis curieuse de tout et j'aime découvrir de nouvelles choses.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
+            Contactez-moi
           </h2>
           <div className="flex gap-4">
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://github.com/ClaireRuysschaert" target="blank">
               <span className="bannerIcon">
                 <FaGithub />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon">
-                <FaFacebookF />
-              </span>
-            </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon">
-                <FaTwitter />
-              </span>
-            </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.linkedin.com/in/claire-ruysschaert-2a254a260/" target="blank">
               <span className="bannerIcon">
                 <FaLinkedinIn />
+              </span>
+            </a>
+            <a href="mailto:netclaire@hotmail.fr" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaEnvelope />
               </span>
             </a>
           </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
+            Technologies de prédilection
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaReact />
+              <FaPython />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <SiDjango />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <SiHtml5 className="mr-1" />
+              <SiCss3 className="mr-2" />
+              <SiJavascript />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiPostgresql className="mr-2" />
+              <SiDocker />
             </span>
           </div>
         </div>

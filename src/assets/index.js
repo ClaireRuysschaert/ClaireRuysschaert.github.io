@@ -1,12 +1,18 @@
 import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
+import bannerImg from "./images/BannerImg.png";
+import projectOne from "./images/projects/projectOne.png";
+import projectTwo from "./images/projects/projectTwo.PNG";
+import projectThree from "./images/projects/projectThree.PNG";
+import projectFour from "./images/projects/projectFour.PNG";
+import projectFive from "./images/projects/projectFive.PNG";
+import projectSix from "./images/projects/projectSix.PNG";
+import projectSeven from "./images/projects/projectSeven.png";
+import projectEight from "./images/projects/projectEight.jpeg";
+import projectNine from "./images/projects/projectNine.PNG";
+import projectTen from "./images/projects/projectTen.PNG";
+import yescapa from "./images/testmonial/yescapa.png";
+import openclassrooms from "./images/testmonial/openclassrooms.jpg";
 import quote from "./images/testmonial/quote.png";
-import contactImg from "./images/contact/contactImg.png";
 
 export {
   logo,
@@ -14,8 +20,14 @@ export {
   projectOne,
   projectTwo,
   projectThree,
-  testimonialOne,
-  testimonialTwo,
+  projectFour,
+  projectFive,
+  projectSix,
+  projectSeven,
+  projectEight,
+  projectNine,
+  projectTen,
+  yescapa,
+  openclassrooms,
   quote,
-  contactImg,
 };
