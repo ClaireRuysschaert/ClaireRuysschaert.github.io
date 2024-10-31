@@ -10,9 +10,9 @@ import { SiPostgresql, SiDjango, SiJavascript, SiHtml5, SiCss3, SiDocker } from 
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Développeuse Backend.", "Développeuse Python / Django.", "Créatrice d'API REST (DRF).", "Curieuse de tout.", "Cat mom."],
+    words: ["Développeuse Python.", "Développeuse Django.", "Créatrice d'API REST (DRF).", "Curieuse de tout.", "Cat mom."],
     loop: true,
-    typeSpeed: 20,
+    typeSpeed: 25,
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
@@ -23,7 +23,7 @@ const LeftBanner = () => {
         <h1 className="text-6xl font-bold text-white">
           Bonjour, moi c'est <span className="text-designColor capitalize">Claire Ruysschaert</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-4xl font-bold text-white text-justify">
           une <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -31,7 +31,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">
           Je code en python avec le framework Django depuis 3 ans. J'ai un attrait pour le développement web et les apis.
           Venant du milieu scientifique, j'ai une approche rigoureuse et méthodique du code.
           Je suis curieuse de tout et j'aime découvrir de nouvelles choses.

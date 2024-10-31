@@ -40,7 +40,8 @@ const Experience = () => {
 
                 <div>
                 ★ Résolution de bugs et maintenance
-                  <div className="ml-10">➤ Amélioration (tests, typing, documentation) et refactorisation du code existant pour garantir la stabilité et les performances de l’application</div>
+                  <div className="ml-10">➤ Amélioration (tests, typing, documentation)</div>
+                  <div className="ml-10">➤ Refactorisation du code existant pour garantir la stabilité et les performances de l’application</div>
                   <div className="ml-10">➤ Création et amélioration de tests unitaires, d’intégrations avec <strong>TestCase</strong></div>
                   <div className="ml-10">➤ Gestion des traductions avec <strong>POEDITOR</strong></div>
                   <div className="ml-10">➤ Interactions avec la base de données et optimisation des performances via les querysets</div> <br />

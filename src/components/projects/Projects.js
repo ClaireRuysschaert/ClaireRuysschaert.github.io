@@ -83,7 +83,7 @@ const Projects = () => {
             📈 Conception de la mise en oeuvre via des diagrammes UML. <br />
             👩🏻‍💻 Optimisation des performances. 
             <br /><br />
-            <ul className="list-disc list-inside ">
+            <ul className="list-disc list-inside">
                 <li className="mb-1"><strong>Django REST Framework</strong>: Boite à outils pour la création d'API Web </li>
                 <li className="mb-1"><strong>Postman</strong>: Test des endpoints</li>
                 <li className="mb-1"><strong>Poetry</strong>: Gestion des versions des dépendances</li>
@@ -263,9 +263,6 @@ const Projects = () => {
           src={projectSeven}
           githubLink="https://github.com/ClaireRuysschaert/P6_JustStreamIt"
         />
-        
-
-
       </div>
     </section>
   );

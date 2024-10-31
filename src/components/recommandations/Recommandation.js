@@ -115,7 +115,7 @@ const Recommandations = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+              <div className="w-full lgl:w-[60%] h-full flex flex-col text-justify">
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
@@ -152,7 +152,7 @@ const Recommandations = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+              <div className="w-full lgl:w-[60%] h-full flex flex-col text-justify">
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
@@ -163,7 +163,7 @@ const Recommandations = () => {
                   Je la recommande vivement !
                   </p>
                   <p className="text-gray-400">
-                    via <a href={linkedInLink} target="_blank" rel="noreferrer" ><u>LinkedIn</u></a> - Le 26 octobre 2024`
+                    via <a href={linkedInLink} target="_blank" rel="noreferrer" ><u>LinkedIn</u></a> - Le 26 octobre 2024
                   </p>
                 </div>
               </div>
