@@ -19,7 +19,7 @@ const Experience = () => {
         <div className="border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <div className="w-5/6">
             <ResumeCard
-              title="👩🏻‍💻 Developpeuse Python/Django, Django Rest Framework (DRF)"
+              title="👩🏻‍💻 Développeuse Python/Django, Django Rest Framework (DRF)"
               subTitle=
               {
                 <>
@@ -31,38 +31,26 @@ const Experience = () => {
               des={
                 <>
                 <div>
-                  ✳ Création et amélioration de l'API DRF <br />
-                  <div className="ml-10">➤ Développement d'une nouvelle api dans un contexte de fusion d'entreprises</div>
-                  <div className="ml-10">➤ Mise en place de l'authentification et de la sécurité : PASETO, API keys</div>
-                  <div className="ml-10">➤ Synchronisation des calendriers des utilisateurs des 2 plateformes, amélioration de la search ...</div>
-                  <div className="ml-10">➤ Gestion du mapping et migration des annonces et des utilisateurs</div>
-                  <div className="ml-10">➤ Rédaction de documentation technique pour les fonctionnalités développées avec SWAGGER</div>
+                ★ Amélioration de l'API DRF, authentification et sécurité <strong>PASETO</strong>, documentation avec <strong>SWAGGER</strong> 
                 </div><br />
 
                 <div>
-                  ✳ Création de nouvelles Features
-                  <div className="ml-10">➤ Permettre aux propriétaires de mieux gérer leurs réservations instantanées</div>
-                  <div className="ml-10">➤ Ajout de périodes iCal dans les calendriers</div> <br />
-                </div>
+                ★ Nouvelles fonctionnalités pour les propriétaires et amélioration de l’admin pour les ops (Publications cross plateformes, etc…)
+                </div><br />
 
                 <div>
-                  ✳ Résolution de bugs et maintenance
+                ★ Résolution de bugs et maintenance
                   <div className="ml-10">➤ Amélioration (tests, typing, documentation) et refactorisation du code existant pour garantir la stabilité et les performances de l’application</div>
-                  <div className="ml-10">➤ Création et amélioration de tests unitaires, d’intégrations avec TestCase</div>
+                  <div className="ml-10">➤ Création et amélioration de tests unitaires, d’intégrations avec <strong>TestCase</strong></div>
+                  <div className="ml-10">➤ Gestion des traductions avec <strong>POEDITOR</strong></div>
                   <div className="ml-10">➤ Interactions avec la base de données et optimisation des performances via les querysets</div> <br />
                 </div>
 
                 <div>
-                  ✳ Augmentation du taux de conversion et récupération de données
-                  <div className="ml-10">➤ Création et gestion de mails  (second conducteur, assurances…)</div>
-                  <div className="ml-10">➤ Mise en place d’un webhook sur Looker pour récupérer les data quotidiennes de performance de l’entreprise. Formatter les data et les envoyer sous forme de notification via l’API Slack en utilisant Postman.</div> <br />
-                </div>
-
-                <div>
-                  ✳ Communication et collaboration
-                  <div className="ml-10">➤ Participation à des cérémonies agiles : daily, rétrospectives, sprint review. Mise en place de la méthode shape up.</div>
+                ★ Communication et collaboration
+                  <div className="ml-10">➤ Participation à des cérémonies <strong>Agiles</strong> : daily, rétrospectives, sprint review.</div>
                   <div className="ml-10">➤ Proactive, collaboration avec les équipes produit et opérationel pour la clarification des exigences.</div>
-                  <div className="ml-10">➤ Communique en anglais avec l'équipe néérlandaise et participe à la mise en place du cadre de travail (outils collaboratifs).</div> <br />
+                  <div className="ml-10">➤ Communication en anglais avec la méthode <strong>Shape Up</strong> avec l'équipe néérlandaise.</div> <br />
                 </div>
 
                 Technologies utilisées : <br />

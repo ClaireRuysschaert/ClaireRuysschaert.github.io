@@ -28,7 +28,7 @@ function SamplePrevArrow(props) {
     </div>
   );
 }
-
+const linkedInLink = "https://www.linkedin.com/in/claire-ruysschaert-2a254a260/";
 const Recommandations = () => {
       const [dotActive, setDocActive] = useState(0);
      const settings = {
@@ -126,7 +126,7 @@ const Recommandations = () => {
                   Je suis convaincu qu'elle saura apporter une contribution précieuse à toute équipe technique.
                   </p>
                   <p className="text-gray-400">
-                      via Linkedin - Le 26 octobre 2024
+                    via <a href={linkedInLink} target="_blank" rel="noreferrer" ><u>LinkedIn</u></a> - Le 26 octobre 2024`
                   </p>
                 </div>
               </div>
@@ -163,49 +163,7 @@ const Recommandations = () => {
                   Je la recommande vivement !
                   </p>
                   <p className="text-gray-400">
-                      via Linkedin - Le 26 octobre 2024
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* ================ Slider Three ================== */}
-
-          <div className="w-full">
-            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
-              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
-                <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={yescapa}
-                  alt="yescapa"
-                />
-                <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Developpeur Senior - Yescapa
-                  </p>
-                  <h3 className="text-2xl font-bold">Richard Barran</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Manager (2 ans)
-                  </p>
-                </div>
-              </div>
-              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
-                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
-                  </p>
-                  <p className="text-gray-400">
-                      via Linkedin - Le 26 octobre 2024
+                    via <a href={linkedInLink} target="_blank" rel="noreferrer" ><u>LinkedIn</u></a> - Le 26 octobre 2024`
                   </p>
                 </div>
               </div>

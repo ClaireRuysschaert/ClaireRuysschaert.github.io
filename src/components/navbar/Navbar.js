@@ -8,6 +8,11 @@ const Navbar = () => {
       <div>
         <img src={logo} alt="logo" />
       </div>
+      <div className="text-designColor">
+      <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+        Télécharger mon CV
+      </a>
+      </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
